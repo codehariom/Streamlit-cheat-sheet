@@ -43,12 +43,21 @@ Displays a text area labeled "Area for textual entry" in the Streamlit app.
 
 Displays a date input field labeled "Date input" in the Streamlit app.
 
-- `st.time_input('Time entry')`: Displays a time input field labeled "Time entry" in the Streamlit app.
+    st.time_input('Time entry')
+    
+Displays a time input field labeled "Time entry" in the Streamlit app.
 
-- `st.file_uploader('File uploader')`: Displays a file uploader in the Streamlit app.
+    st.file_uploader('File uploader')
 
-- `st.download_button('On the dl', data)`: Displays a download button labeled "On the dl" to download the provided data in the Streamlit app.
+Displays a file uploader in the Streamlit app.
 
-- `st.camera_input("一二三,茄子!")`: Allows capturing images from the camera with the specified label in the Streamlit app.
+    st.download_button('On the dl', data)
+    
+Displays a download button labeled "On the dl" to download the provided data in the Streamlit app.
 
-- `st.color_picker('Pick a color')`: Displays a color picker in the Streamlit app.
+    st.camera_input("一二三,茄子!") 
+    
+ Allows capturing images from the camera with the specified label in the Streamlit app.
+
+    st.color_picker('Pick a color')
+Displays a color picker in the Streamlit app.
