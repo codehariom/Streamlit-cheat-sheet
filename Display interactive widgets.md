@@ -27,13 +27,21 @@ Displays a slider labeled "Slide me" with values ranging from 0 to 10 in the Str
     st.select_slider('Slide to select', options=[1,'2'])
 Displays a select slider labeled "Slide to select" with options 1 and '2' in the Streamlit app.
 
-- `st.text_input('Enter some text')`: Displays a text input field labeled "Enter some text" in the Streamlit app.
+    st.text_input('Enter some text')
 
-- `st.number_input('Enter a number')`: Displays a number input field labeled "Enter a number" in the Streamlit app.
+Displays a text input field labeled "Enter some text" in the Streamlit app.
 
-- `st.text_area('Area for textual entry')`: Displays a text area labeled "Area for textual entry" in the Streamlit app.
+    st.number_input('Enter a number')
+    
+Displays a number input field labeled "Enter a number" in the Streamlit app.
 
-- `st.date_input('Date input')`: Displays a date input field labeled "Date input" in the Streamlit app.
+    st.text_area('Area for textual entry')
+    
+Displays a text area labeled "Area for textual entry" in the Streamlit app.
+
+    st.date_input('Date input')
+
+Displays a date input field labeled "Date input" in the Streamlit app.
 
 - `st.time_input('Time entry')`: Displays a time input field labeled "Time entry" in the Streamlit app.
 
