@@ -61,3 +61,20 @@ Displays a download button labeled "On the dl" to download the provided data in 
 
     st.color_picker('Pick a color')
 Displays a color picker in the Streamlit app.
+
+Here's a description of each line of code:
+
+    for i in range(int(st.number_input('Num:'))): foo()
+    
+This line creates a loop based on the number entered by the user in a number input widget. For each iteration of the loop, the function `foo()` is called.
+
+    if st.sidebar.selectbox('I:',['f']) == 'f': b()
+    
+This line displays a select box widget in the sidebar with the options ['f']. If the user selects 'f', the function `b()` is called.
+
+    my_slider_val = st.slider('Quinn Mallory', 1, 88)
+ This line displays a slider widget labeled 'Quinn Mallory' with values ranging from 1 to 88. The value selected by the user is stored in the variable `my_slider_val`.
+
+    st.write(slider_val)
+    
+ This line attempts to display the value of the variable `slider_val`, but it seems to be a typo as the variable is defined as `my_slider_val`. It should be `st.write(my_slider_val)` to correctly display the value of the slider.
