@@ -78,3 +78,13 @@ This line displays a select box widget in the sidebar with the options ['f']. If
     st.write(slider_val)
     
  This line attempts to display the value of the variable `slider_val`, but it seems to be a typo as the variable is defined as `my_slider_val`. It should be `st.write(my_slider_val)` to correctly display the value of the slider.
+
+***Disable widgets to remove interactivity:***
+
+    st.slider('Pick a number', 0, 100, disabled=True)
+
+This line of code creates a slider widget labeled 'Pick a number' with values ranging from 0 to 100. However, the widget is disabled, meaning that the user cannot interact with it or change its value.
+
+
+
+
