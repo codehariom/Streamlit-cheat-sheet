@@ -17,3 +17,16 @@ This syntax uses a 'with' statement to specify that the following code block sho
 
 
 
+**Tabs Details**
+
+    tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+    
+This line creates two tabs labeled "Tab 1" and "Tab 2" within the Streamlit app. It assigns the first tab to the variable `tab1` and the second tab to the variable `tab2`.
+
+    tab1.write("this is tab 1")` and `tab2.write("this is tab 2")
+    
+ These lines write text within their respective tabs, allowing you to display content specifically within each tab.
+
+    `with tab1:` and `st.radio('Select one:', [1, 2])
+
+This syntax uses a 'with' statement to specify that the following code block should be executed within `tab1`. In this case, it displays a radio button widget labeled "Select one:" with options 1 and 2 within `tab1`.
