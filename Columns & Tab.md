@@ -14,3 +14,6 @@ This line creates three columns within the Streamlit app, with the first column 
     with col1:` and `st.write('This is column 1')
     
 This syntax uses a 'with' statement to specify that the following code block should be executed within `col1`. In this case, it writes 'This is column 1' within `col1`.
+
+
+
