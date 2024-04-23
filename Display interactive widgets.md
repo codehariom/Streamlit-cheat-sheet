@@ -62,7 +62,7 @@ Displays a download button labeled "On the dl" to download the provided data in 
     st.color_picker('Pick a color')
 Displays a color picker in the Streamlit app.
 
-Here's a description of each line of code:
+***Use widgets' returned values in variables***
 
     for i in range(int(st.number_input('Num:'))): foo()
     
