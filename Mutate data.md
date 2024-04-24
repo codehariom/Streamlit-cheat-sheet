@@ -15,3 +15,4 @@ displays the initial line chart using data from `df1`.
 
     element.add_rows(df2)
 adds data from another dataframe `df2` to the displayed chart.
+
